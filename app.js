@@ -1,7 +1,7 @@
 // Portfolio application data with complete information
 const portfolioData = {
   "profile": {
-    "name": "Arunachalam Alagappan",
+    "name": "Arunaachalam Alagappan",
     "email": "arunaachalam.al@gmail.com",
     "phone": "+91 9962132636",
     "linkedin": "linkedin.com/in/arunaachalamalagappan",
