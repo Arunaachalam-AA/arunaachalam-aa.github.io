@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arunachalam Alagappan - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Profile Selection Page -->
+    <div id="profile-page" class="page active">
+        <nav class="navbar">
+            <div class="navbar-brand">Arunachalam Alagappan</div>
+            <div class="location-indicator">📍 India</div>
+        </nav>
+        
+        <div class="profile-container">
+            <div class="profile-photo" id="profile-photo">
+                <img src="Screenshot-2025-09-23-at-2.29.12-AM.jpeg" alt="Arunachalam Alagappan" class="profile-image" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <span class="profile-initials" style="display: none;">AA</span>
+            </div>
+            <div class="profile-name">Arunachalam</div>
+            <p class="profile-instruction">Choose where you'd like to go</p>
+        </div>
+    </div>
+
+    <!-- Dashboard Page -->
+    <div id="dashboard-page" class="page">
+        <nav class="dashboard-navbar">
+            <button id="back-to-profile" class="back-button">← Back to Profile</button>
+            <div class="dashboard-title">Portfolio Dashboard</div>
+        </nav>
+
+        <div class="dashboard-container">
+            <div class="cards-grid">
+                <div class="portfolio-card" data-section="about">
+                    <div class="card-content">
+                        <div class="card-icon">🎓</div>
+                        <h2 class="card-title">About Me</h2>
+                        <div class="card-preview">
+                            <p>Business & Management Graduate | ACCA Candidate | Aspiring Audit Associate</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card" data-section="experience">
+                    <div class="card-content">
+                        <div class="card-icon">💼</div>
+                        <h2 class="card-title">Work Experience</h2>
+                        <div class="card-preview">
+                            <p>Compliance, Audit & Finance roles across Singapore and India</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card" data-section="leadership">
+                    <div class="card-content">
+                        <div class="card-icon">🚀</div>
+                        <h2 class="card-title">Leadership & Activities</h2>
+                        <div class="card-preview">
+                            <p>Active involvement in student organizations and event management</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card" data-section="education">
+                    <div class="card-content">
+                        <div class="card-icon">📚</div>
+                        <h2 class="card-title">Education & Certifications</h2>
+                        <div class="card-preview">
+                            <p>University of London - BSc Hons Business & Management (2:1)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-bar" data-section="contact">
+                <div class="contact-content">
+                    <h3>📞 Contact Information</h3>
+                    <div class="contact-preview">
+                        <span>arunaachalam.al@gmail.com | +91 9962132636 | 📍 India</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Overlay -->
+    <div id="modal-overlay" class="modal-overlay hidden">
+        <div class="modal-container">
+            <button class="modal-close" id="modal-close">×</button>
+            <div class="modal-content" id="modal-content">
+                <!-- Dynamic content will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
